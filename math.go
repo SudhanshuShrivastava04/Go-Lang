@@ -23,4 +23,5 @@ func main(){
 	d90 := r90 * (180/math.Pi)
 	print(d90)
 	print("Sin(90) :", math.Sin(r90))
+	// similarly we have cos tan Acos Asin
 }
