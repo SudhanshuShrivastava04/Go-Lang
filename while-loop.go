@@ -13,8 +13,6 @@ func main() {
 	print("Choose a random num b/w 1 to 50")
 	print("random number is :", randNum)
 	for true {
-		// reader := bufio.NewReader(os.Stdin)
-		// guess, err := reader.ReadString('\n')
 		var guess int
 		_, err := fmt.Scan(&guess)
 		if err != nil {
