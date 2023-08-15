@@ -19,4 +19,7 @@ func main(){
 	}
 	print("index of 1st occurence of", x)
 	print(strings.Index(sV,x))
+	print("Split : ", strings.Split(sV,x))
+	print("LowerCase :", strings.ToLower(sV), "UpperCase :", strings.ToUpper(sV))
+	
 }

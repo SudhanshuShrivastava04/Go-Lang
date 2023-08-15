@@ -16,4 +16,6 @@ func main(){
 	replacer := strings.NewReplacer("world" , name)
 	b := replacer.Replace(a)
 	print("after : ", b,"--> length :", len(b), "conatins name?", strings.Contains(b,name))
+	print("Prefix : ", strings.HasPrefix(b,"hello"))
+	print("Suffix :", strings.HasSuffix(b,name))
 }
