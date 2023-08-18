@@ -11,7 +11,8 @@ func change(ptr *string) {
 }
 func main() {
 	a := "hello"
-	print("before :", a)
+	var Ptr *string = &a //address of a
+	print("before :", a, Ptr)
 	change(&a)
-	print("after :", a)
+	print("after :", a, Ptr)
 }
